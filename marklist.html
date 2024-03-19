@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Mark List</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <div class="marklist-container">
+    <h2>Student Mark List</h2>
+    <table id="markList">
+      <thead>
+        <tr>
+          <th>Student ID</th>
+          <th>Name</th>
+          <th>Computer Network</th>
+          <th>Object Oriented Programming</th>
+          <th>Embedded System</th>
+          <th>Total</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Mark list will be populated dynamically -->
+      </tbody>
+    </table>
+    <button id="calculate">Calculate Results</button>
+    <button id="downloadResults">Download Results</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <script src="script1.js"></script>
+</body>
+</html>
